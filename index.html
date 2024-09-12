@@ -6,7 +6,7 @@
     <title>MineSweeper BoOoOoM</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="Reset()">
 
     <div id="container">
 
@@ -99,6 +99,9 @@
         </div>
 
         <div id="bottom">
+
+            <button id="btn-play" class="btn-game" onclick="Play()">PLAY</button>
+            <button id="btn-reset" class="btn-game" onclick="Reset()" disabled>Reset</button>
 
         </div>
 
