@@ -16,6 +16,7 @@ label{
     font-family:'Franklin Gothic Medium';
     font-size: 40px;
     color: #303030;
+    margin-top: 30px;
 
 }
 
@@ -28,7 +29,7 @@ label{
 
     #top{
 
-        height: 20%;
+        height: 15%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -55,7 +56,12 @@ label{
             width: 30%;
             display: flex;
             flex-direction: column;
-            border: solid 4px #303030;     
+            justify-content: center;
+            align-items: center;
+            /* outline: solid 4px #303030;
+            border-radius: 15px; */
+            padding: 5px;
+            /* background-color: chocolate; */
             
         }
 
@@ -63,8 +69,8 @@ label{
 
                 height: 33%;
                 width: 100%;
-                background-color: white;
                 display: flex;
+                padding: 10px;
 
             }
 
@@ -72,8 +78,8 @@ label{
 
                 height: 34%;
                 width: 100%;
-                background-color: white;
                 display: flex;
+                padding: 10px;
 
             }
 
@@ -81,8 +87,8 @@ label{
 
                 height: 33%;
                 width: 100%;
-                background-color: blueviolet;
                 display: flex;
+                padding: 10px;
 
             }
 
@@ -90,7 +96,7 @@ label{
 
                 height: 100%;
                 width: 33%;
-                background-color:blueviolet;
+                padding: 5px;
 
             }
 
@@ -98,7 +104,8 @@ label{
 
                 height: 100%;
                 width: 34%;
-                background-color:blueviolet;
+                padding: 5px;
+                margin: 0 5px 0 5px;
 
             }
 
@@ -109,8 +116,9 @@ label{
                 /* background-image: url(btn-bg.png);
                 background-repeat: no-repeat;
                 background-size: cover; */
-                border: 0;
-                outline: solid 4px #303030;
+                border: solid 5px #303030;
+                outline: solid 3px #303030;
+                border-radius: 5px;
                 font-family:'Franklin Gothic Medium';
                 font-size: 30px;
                 color: #303030;
@@ -133,6 +141,31 @@ label{
 
     #bottom{
 
-        height: 20%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
+
+        .btn-game{
+
+            height: 25%;
+            width: 10%;
+            background-color: #303030;
+            color: white;
+            font-family:'Franklin Gothic Medium';
+            font-size: 20px;
+            border: solid 0px;
+            border-radius: 10px;
+            margin: 10px 10px 30px 10px;
+
+        }
+
+        .btn-game:hover{
+
+            cursor: pointer;
+            /* background-color:rebeccapurple;
+            transition: 0.3s; */
+
+        }
