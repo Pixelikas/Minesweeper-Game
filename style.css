@@ -1,0 +1,138 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+label{
+
+    font-family:'Franklin Gothic Medium';
+    font-size: 40px;
+    color: #303030;
+
+}
+
+#container{
+
+    height: 100%;
+    background-color:yellowgreen;
+
+}
+
+    #top{
+
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #middle{
+
+        height: 60%;
+        display: flex;
+
+    }
+
+        #middle-left{
+
+            height: 100%;
+            width: 35%;
+
+        }
+
+        #board{
+
+            height: 100%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            border: solid 4px #303030;     
+            
+        }
+
+            #board-line-one{
+
+                height: 33%;
+                width: 100%;
+                background-color: white;
+                display: flex;
+
+            }
+
+            #board-line-two{
+
+                height: 34%;
+                width: 100%;
+                background-color: white;
+                display: flex;
+
+            }
+
+            #board-line-three{
+
+                height: 33%;
+                width: 100%;
+                background-color: blueviolet;
+                display: flex;
+
+            }
+
+            .tiles-lr{
+
+                height: 100%;
+                width: 33%;
+                background-color:blueviolet;
+
+            }
+
+            .tiles-m{
+
+                height: 100%;
+                width: 34%;
+                background-color:blueviolet;
+
+            }
+
+            .btn-tiles{
+
+                height: 100%;
+                width: 100%;
+                /* background-image: url(btn-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover; */
+                border: 0;
+                outline: solid 4px #303030;
+                font-family:'Franklin Gothic Medium';
+                font-size: 30px;
+                color: #303030;
+
+            }
+
+            .btn-tiles:hover{
+
+                cursor: pointer;
+                background-color: #C8BFE7;
+
+            }
+
+        #middle-right{
+
+            height: 100%;
+            width: 35%;
+
+        }
+
+    #bottom{
+
+        height: 20%;
+
+    }
