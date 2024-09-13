@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MineSweeper BoOoOoM</title>
+    <title>BoOoOoM</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload="Reset()">
@@ -12,7 +12,7 @@
 
         <div id="top">
 
-            <label>MineSweeper BoOoOoM! :D</label>
+            <label id="lblTitle">MineSweeper BoOoOoM!</label>
 
         </div>
 
@@ -28,19 +28,19 @@
 
                     <div class="tiles-lr">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn00" class="btn-tiles" onclick="VerifyButton00()">?</button>
 
                     </div>
 
                     <div class="tiles-m">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn01" class="btn-tiles" onclick="VerifyButton01()">?</button>
 
                     </div>
 
                     <div class="tiles-lr">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn02" class="btn-tiles" onclick="VerifyButton02()">?</button>
 
                     </div>
 
@@ -50,19 +50,19 @@
 
                     <div class="tiles-lr">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn10" class="btn-tiles" onclick="VerifyButton10()">?</button>
 
                     </div>
 
                     <div class="tiles-m">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn11" class="btn-tiles" onclick="VerifyButton11()">?</button>
 
                     </div>
 
                     <div class="tiles-lr">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn12" class="btn-tiles" onclick="VerifyButton12()">?</button>
 
                     </div>
 
@@ -72,19 +72,19 @@
 
                     <div class="tiles-lr">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn20" class="btn-tiles" onclick="VerifyButton20()">?</button>
 
                     </div>
 
                     <div class="tiles-m">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn21" class="btn-tiles" onclick="VerifyButton21()">?</button>
 
                     </div>
 
                     <div class="tiles-lr">
 
-                        <button class="btn-tiles">?</button>
+                        <button id="btn22" class="btn-tiles" onclick="VerifyButton22()">?</button>
 
                     </div>
 
@@ -100,8 +100,18 @@
 
         <div id="bottom">
 
-            <button id="btn-play" class="btn-game" onclick="Play()">PLAY</button>
-            <button id="btn-reset" class="btn-game" onclick="Reset()" disabled>Reset</button>
+            <div id="bottom-bombs">
+
+                <label id="lblBombs">Inicie o jogo para sortear o tabuleiro!</label>
+
+            </div>
+
+            <div id="bottom-btns">
+                
+                <button id="btn-play" class="btn-game" onclick="Play()">PLAY</button>
+                <button id="btn-reset" class="btn-game" onclick="Reset()" disabled>Reset</button>
+            
+            </div>
 
         </div>
 
