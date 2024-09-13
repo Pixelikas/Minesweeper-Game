@@ -11,12 +11,20 @@ body{
 
 }
 
-label{
+#lblTitle{
 
     font-family:'Franklin Gothic Medium';
     font-size: 40px;
     color: #303030;
     margin-top: 30px;
+
+}
+
+#lblBombs{
+
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    color: #303030;
 
 }
 
@@ -58,10 +66,8 @@ label{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            /* outline: solid 4px #303030;
-            border-radius: 15px; */
             padding: 5px;
-            /* background-color: chocolate; */
+
             
         }
 
@@ -113,15 +119,15 @@ label{
 
                 height: 100%;
                 width: 100%;
-                /* background-image: url(btn-bg.png);
-                background-repeat: no-repeat;
-                background-size: cover; */
                 border: solid 5px #303030;
                 outline: solid 3px #303030;
                 border-radius: 5px;
                 font-family:'Franklin Gothic Medium';
                 font-size: 30px;
                 color: #303030;
+                background-color: white;
+                background-repeat: no-repeat;
+                background-size: cover;
 
             }
 
@@ -143,14 +149,34 @@ label{
 
         height: 25%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
 
     }
 
+        #bottom-bombs{
+
+            height: 30%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        #bottom-btns{
+
+            height: 70%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+
+        }
+
+
         .btn-game{
 
-            height: 25%;
+            height: 35%;
             width: 10%;
             background-color: #303030;
             color: white;
