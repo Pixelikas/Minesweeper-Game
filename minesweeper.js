@@ -138,6 +138,7 @@ function VerifyButton00(){
     
             elementButton00.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -151,6 +152,7 @@ function VerifyButton00(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -169,6 +171,7 @@ function VerifyButton01(){
     
             elementButton01.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -182,6 +185,7 @@ function VerifyButton01(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -200,6 +204,7 @@ function VerifyButton02(){
     
             elementButton02.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -213,6 +218,7 @@ function VerifyButton02(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -231,6 +237,7 @@ function VerifyButton10(){
     
             elementButton10.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -244,6 +251,7 @@ function VerifyButton10(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -262,6 +270,7 @@ function VerifyButton11(){
     
             elementButton11.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -275,6 +284,7 @@ function VerifyButton11(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -293,6 +303,7 @@ function VerifyButton12(){
     
             elementButton12.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -306,6 +317,7 @@ function VerifyButton12(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -324,6 +336,7 @@ function VerifyButton20(){
     
             elementButton20.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -337,6 +350,7 @@ function VerifyButton20(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -355,6 +369,7 @@ function VerifyButton21(){
     
             elementButton21.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -368,6 +383,7 @@ function VerifyButton21(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
@@ -386,6 +402,7 @@ function VerifyButton22(){
     
             elementButton22.style.backgroundImage = "url('btn-bg-bomb.png')";
             lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            canPlay = false
             alert("BOOM!")
     
         }else{
@@ -399,6 +416,7 @@ function VerifyButton22(){
         if(playerScore == winScore){
     
             lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            canPlay = false
     
         }
 
