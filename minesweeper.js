@@ -54,7 +54,7 @@ function SetButtonsReset(){
     elementButtonPlay.disabled = false
     elementButtonReset.style.background = '#5E5E5E'
     elementButtonPlay.style.background = '#303030'
-    lblBombs.innerHTML = 'Inicie o jogo para sortear o tabuleiro!'
+    lblBombs.innerHTML = 'Start the game to draw the board!'
 
 }
 
@@ -82,7 +82,7 @@ function CreateBoard(){
 
     winScore = (boardRows * boardColumns) - bombCount 
 
-    lblBombs.innerHTML = 'O tabuleiro possui ' + bombCount + ' bombas!'
+    lblBombs.innerHTML = 'The board has ' + bombCount + ' bombs!'
     console.table(boardGame)
     
 }
@@ -137,7 +137,7 @@ function VerifyButton00(){
         if(boardGame[0][0] == tileBombValue){
     
             elementButton00.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -151,7 +151,7 @@ function VerifyButton00(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -170,7 +170,7 @@ function VerifyButton01(){
         if(boardGame[0][1] == tileBombValue){
     
             elementButton01.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -184,7 +184,7 @@ function VerifyButton01(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -203,7 +203,7 @@ function VerifyButton02(){
         if(boardGame[0][2] == tileBombValue){
     
             elementButton02.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -217,7 +217,7 @@ function VerifyButton02(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -236,7 +236,7 @@ function VerifyButton10(){
         if(boardGame[1][0] == tileBombValue){
     
             elementButton10.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -250,7 +250,7 @@ function VerifyButton10(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -269,7 +269,7 @@ function VerifyButton11(){
         if(boardGame[1][1] == tileBombValue){
     
             elementButton11.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -283,7 +283,7 @@ function VerifyButton11(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -302,7 +302,7 @@ function VerifyButton12(){
         if(boardGame[1][2] == tileBombValue){
     
             elementButton12.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -316,7 +316,7 @@ function VerifyButton12(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -335,7 +335,7 @@ function VerifyButton20(){
         if(boardGame[2][0] == tileBombValue){
     
             elementButton20.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -349,7 +349,7 @@ function VerifyButton20(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -368,7 +368,7 @@ function VerifyButton21(){
         if(boardGame[2][1] == tileBombValue){
     
             elementButton21.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -382,7 +382,7 @@ function VerifyButton21(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
@@ -401,7 +401,7 @@ function VerifyButton22(){
         if(boardGame[2][2] == tileBombValue){
     
             elementButton22.style.backgroundImage = "url('btn-bg-bomb.png')";
-            lblBombs.innerHTML = 'Você perdeu, hahaha! Inicie novamente!'
+            lblBombs.innerHTML = 'You lost, hahaha. Start again!'
             canPlay = false
             alert("BOOM!")
     
@@ -415,7 +415,7 @@ function VerifyButton22(){
     
         if(playerScore == winScore){
     
-            lblBombs.innerHTML = 'UOUUUUUUUU! Isso você é incrível! :D'
+            lblBombs.innerHTML = 'UOUUUUUUUU! You are amazing :D'
             canPlay = false
     
         }
